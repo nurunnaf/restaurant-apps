@@ -45,14 +45,15 @@ const createRestaurantDetailTemplate = (restaurant) => `
 const createRestaurantItemTemplate = (restaurants) => `
   <div class="restaurant-item">
     <div class="restaurant-item__header">
-      <img class="restaurant-item__header__poster" alt="${restaurants.name}"
-           src="${CONFIG.BASE_IMAGE_URL}${restaurants.pictureId}">
+      <img class="restaurant-item__header__poster lazyload" alt="${restaurants.name}"
+      data-src="${CONFIG.BASE_IMAGE_URL}${restaurants.pictureId}">
       <div class="restaurant-item__header__rating">
         <p>⭐️<span class="restaurant-item__header__rating__score">${restaurants.rating}</span></p>
       </div>
     </div>
     <div class="restaurant-item__content">
-      <h3><a href="/#/detail/${restaurants.id}">${restaurants.name}</a></h3>
+      <h3 class ="restaurant-item__content1" >
+      <a  href="/#/detail/${restaurants.id}">${restaurants.name}</a></h3>
       <p>${restaurants.description}</p>
     </div>
   </div>

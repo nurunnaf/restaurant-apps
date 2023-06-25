@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
-
+ 
 * {
   padding: 0;
   scroll-behavior: smooth;
@@ -8,7 +8,7 @@
   font-family: "Poppins";
  
 }
-
+ 
 .skip-to-content {
   position: absolute;
   background-color: #da291c;
@@ -16,13 +16,13 @@
   top: -5rem;
   cursor: pointer;
 }
-
+ 
 .skip-to-content:focus {
   outline: none;
   display: block;
   top: 1rem;
 }
-
+ 
 .app-bar {
   min-height: 56px;
   display: flex;
@@ -42,7 +42,7 @@
   padding: 10px;
 }
  
-
+ 
 .app-bar .app-bar__menu button {
   font-size: 32px;
   background-color: transparent;
@@ -82,7 +82,7 @@
   
   
 }
-
+ 
 .app-bar .app-bar__navigation ul li a {
   display: inline-block;
   text-decoration: none;
@@ -92,38 +92,38 @@
   width: 100%;
   font-size: 19px;
 }
-
+ 
 .app-bar .app-bar__navigation ul li a:hover {
   font-weight: bold;
   font-size: 18px;
 }
-
+ 
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  /* height: 80vh; */
   background-size: cover;
   position: relative;
 }
-
+ 
 .hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   
 }
-
+ 
 .hero::after {
-  content: "";
+  content: '';
   display: block;
-  position: relative;
+  position: relativ;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 }
-
+ 
 main {
   padding: px;
   flex: 1;
@@ -135,8 +135,8 @@ main {
   margin: 0 auto;
   min-height: 100%;
 }
-
-
+ 
+ 
 .content .content__heading {
   font-weight: normal;
 }
@@ -147,9 +147,9 @@ main {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #b8421b;
 }
-
-
-
+ 
+ 
+ 
 /*
   Restaurants
 */
@@ -211,7 +211,7 @@ main {
   display: inline-block
 }
  
-.restaurant-item .restaurant-item__content p {
+.restaurant-item .restaurant-item__Content p {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -221,33 +221,33 @@ main {
 }
  
 /* css review */
-
+ 
 .review {
   background-color: #f2f2f2;
   padding: 20px;
   margin-bottom: 20px;
 }
-
+ 
 .review-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
 }
-
+ 
 .review__name {
   font-weight: bold;
 }
-
+ 
 .review__date {
   font-style: italic;
   color: #999;
 }
-
+ 
 .review__text {
   line-height: 1.5;
 }
-
+ 
 /* batas */
  
 /*
@@ -276,7 +276,7 @@ main {
   text-align: justify;
 }
  
-
+ 
 .restaurant-description {
   font-size: 16px;
   color: #333;
@@ -284,7 +284,7 @@ main {
   text-align: justify;
   margin: 8px 0;
 }
-
+ 
 /*
   Like
 */
@@ -306,18 +306,18 @@ main {
   color: white;
   cursor: pointer;
 }
-
+ 
 footer {
   padding: 20px;
   color: white;
   background-color: #b8421b;
   text-align: center;
 }
-
+ 
 footer p {
   line-height: 30px;
 }
-
+ 
 footer a {
   text-decoration: none;
   color: var(--font-color);

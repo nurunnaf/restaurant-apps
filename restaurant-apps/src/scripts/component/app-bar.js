@@ -21,9 +21,15 @@ class AppBar extends HTMLElement {
       </ul>
     </nav>
   </div>
+ 
+  
+  <picture>
   <div class="hero">
-      <img src="./images/heros/hero-image_4.jpg" alt="Jumbotroon image" />
-    </div>
+  <source media="(max-width:600px)" srcset="/images/hero-image_4-small.jpg"  type="image/jpg">
+  <img src="/images/heros/hero-image_4.jpg" alt="hero element">
+  </div>
+</picture>
+   
           `;
   }
 }
